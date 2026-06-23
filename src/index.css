@@ -1,0 +1,15 @@
+.card .profile-pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.card{
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px rgba(6, 6, 6, 0.895);
+    max-width: 300px;
+    margin: 20px auto;
+}
