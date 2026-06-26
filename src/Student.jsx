@@ -14,6 +14,6 @@ function Student(props){
     Age : propTypes.number,
     isStudent : propTypes.bool,
   }
-
+  
 }
 export default Student
