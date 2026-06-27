@@ -1,4 +1,5 @@
 import List from "./List";
+import './ListApp.css'
 
     function ListApp(props){
         
@@ -15,8 +16,9 @@ import List from "./List";
                             {id:5,name: "Cabbage",calories: 22}];
 
         return (<>
-                    <List items={fruits} category="Fruits" />
-                    <List items={vegetables} category="Vegetables" />
+                    {fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null }
+                    {vegetables.length > 0 ? <List items={vegetables} category="Vegetables" /> : null }
                 </>);
     }
+    
     export default ListApp

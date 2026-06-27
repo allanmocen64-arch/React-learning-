@@ -1,0 +1,17 @@
+.list-category {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  align-items: center;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-items {
+  list-style-type: disc;
+  margin-bottom: 1rem;
+
+}
