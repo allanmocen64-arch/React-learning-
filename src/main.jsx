@@ -5,20 +5,18 @@ import { createRoot } from 'react-dom/client'
 import './UserGreeting.css'*/}
 {/*import List from './List.jsx'
 import ListApp from './ListApp.jsx'*/}
-import Button from './Button.jsx'
-import PandaPic from './PandaPic.jsx'
-
+{/*import Button from './Button.jsx'
+import PandaPic from './PandaPic.jsx'*/}
+import MyComponentApp from './MyComponentApp.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/*<UserGreeting isLoggedin={true} username={"Trench"} />*/}
 
-    
-      <Button/>
-      <PandaPic/>
+    {/*<Button />
+    <PandaPic />*/}
 
-      
-    
+    <MyComponentApp />
   </StrictMode>
 )
 
