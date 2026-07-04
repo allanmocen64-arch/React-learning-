@@ -1,22 +1,31 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 
-{/*import UserGreeting from './UserGreeting.jsx'
-import './UserGreeting.css'*/}
-{/*import List from './List.jsx'
-import ListApp from './ListApp.jsx'*/}
-{/*import Button from './Button.jsx'
-import PandaPic from './PandaPic.jsx'*/}
-import MyComponentApp from './MyComponentApp.jsx'
+{
+  /*import UserGreeting from './UserGreeting.jsx'
+import './UserGreeting.css'*/
+}
+{
+  /*import List from './List.jsx'
+import ListApp from './ListApp.jsx'*/
+}
+{
+  /*import Button from './Button.jsx'
+import PandaPic from './PandaPic.jsx'*/
+}
+{
+  /*import MyComponentApp from './MyComponentApp.jsx'*/
+}
+import CounterApp from "./CounterApp.jsx";
+import "./Counter.css";
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/*<UserGreeting isLoggedin={true} username={"Trench"} />*/}
 
-    {/*<Button />
-    <PandaPic />*/}
-
-    <MyComponentApp />
-  </StrictMode>
-)
-
+    {/*<Button />*/}
+    {/*<PandaPic />*/}
+    {/*<MyComponentApp />*/}
+    <CounterApp />
+  </StrictMode>,
+);
