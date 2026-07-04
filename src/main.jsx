@@ -16,8 +16,11 @@ import PandaPic from './PandaPic.jsx'*/
 {
   /*import MyComponentApp from './MyComponentApp.jsx'*/
 }
-import CounterApp from "./CounterApp.jsx";
-import "./Counter.css";
+{
+  /*import CounterApp from "./CounterApp.jsx";
+import "./Counter.css";*/
+}
+import OnChangeApp from "./OnChangeApp.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -26,6 +29,7 @@ createRoot(document.getElementById("root")).render(
     {/*<Button />*/}
     {/*<PandaPic />*/}
     {/*<MyComponentApp />*/}
-    <CounterApp />
+    {/*<CounterApp />*/}
+    <OnChangeApp />
   </StrictMode>,
 );
