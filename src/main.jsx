@@ -20,7 +20,12 @@ import PandaPic from './PandaPic.jsx'*/
   /*import CounterApp from "./CounterApp.jsx";
 import "./Counter.css";*/
 }
-import OnChangeApp from "./OnChangeApp.jsx";
+{
+  /*import OnChangeApp from "./OnChangeApp.jsx";*/
+}
+
+import ColorPickerApp from "./ColorPickerApp.jsx";
+import "./ColorPicker.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -30,6 +35,7 @@ createRoot(document.getElementById("root")).render(
     {/*<PandaPic />*/}
     {/*<MyComponentApp />*/}
     {/*<CounterApp />*/}
-    <OnChangeApp />
+    {/*<OnChangeApp />*/}
+    <ColorPickerApp />
   </StrictMode>,
 );
