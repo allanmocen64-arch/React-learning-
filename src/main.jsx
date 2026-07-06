@@ -24,18 +24,21 @@ import "./Counter.css";*/
   /*import OnChangeApp from "./OnChangeApp.jsx";*/
 }
 
-import ColorPickerApp from "./ColorPickerApp.jsx";
-import "./ColorPicker.css";
+{
+  /*import ColorPickerApp from "./ColorPickerApp.jsx";
+import "./ColorPicker.css";*/
+}
+import StateUpdatesApp from "./StateUpdatesApp";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/*<UserGreeting isLoggedin={true} username={"Trench"} />*/}
-
     {/*<Button />*/}
     {/*<PandaPic />*/}
     {/*<MyComponentApp />*/}
     {/*<CounterApp />*/}
     {/*<OnChangeApp />*/}
-    <ColorPickerApp />
+    {/*<ColorPickerApp />*/}
+    <StateUpdatesApp />
   </StrictMode>,
 );
