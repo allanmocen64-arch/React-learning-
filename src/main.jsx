@@ -28,7 +28,10 @@ import "./Counter.css";*/
   /*import ColorPickerApp from "./ColorPickerApp.jsx";
 import "./ColorPicker.css";*/
 }
-import StateUpdatesApp from "./StateUpdatesApp";
+{
+  /*import StateUpdatesApp from "./StateUpdatesApp";*/
+}
+import UpdateArrayStateApp from "./UpdateArrayStateApp.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -39,6 +42,7 @@ createRoot(document.getElementById("root")).render(
     {/*<CounterApp />*/}
     {/*<OnChangeApp />*/}
     {/*<ColorPickerApp />*/}
-    <StateUpdatesApp />
+    {/*<StateUpdatesApp />*/}
+    <UpdateArrayStateApp />
   </StrictMode>,
 );
